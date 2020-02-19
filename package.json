@@ -1,0 +1,29 @@
+{
+  "name": "com.amitbhandari.dronelogs",
+  "displayName": "DroneLogs",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova": "^9.0.0",
+    "cordova-android": "^8.0.0",
+    "express": "^4.16.4",
+    "mongodb": "^3.2.4"
+  },
+  "devDependencies": {
+    "cordova-plugin-whitelist": "1"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}
